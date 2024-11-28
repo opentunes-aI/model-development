@@ -1,0 +1,44 @@
+# Deployment Configuration for MelodyMaster V1
+
+# Model Information
+model:
+  local_path: "../training/outputs/latest"  # Path to trained model
+  repo_id: "opentunesai/melodymaster-v1"    # HF repository ID
+  version: "v1.0.0"                         # Version tag
+
+# Hugging Face Settings
+huggingface:
+  token: ${HF_TOKEN}  # Set via environment variable
+  organization: "opentunesai"
+  create_release: true
+
+# Model Card Updates
+model_card:
+  update_metrics: true
+  update_examples: true
+  sections_to_update:
+    - model-index
+    - metrics
+    - examples
+
+# Validation Settings
+validation:
+  required: true
+  timeout_seconds: 300
+
+# Deployment Options
+options:
+  push_full_model: true
+  push_safetensors: true
+  include_optimizer: false
+  
+# Cleanup
+cleanup:
+  delete_old_versions: false
+  keep_n_recent: 3
+
+# Logging
+logging:
+  level: "INFO"
+  save_deployment_log: true
+  log_file: "deployment.log"
