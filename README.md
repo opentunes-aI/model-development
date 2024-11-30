@@ -3,7 +3,6 @@
 This repository contains development workflows for training, validating, testing, and deploying Opentunes AI models to Hugging Face.
 
 ## 📁 Repository Structure
-
 ```
 model-development/
 └── model_name/
@@ -15,14 +14,12 @@ model-development/
 ```
 
 ## 🤖 Models
-
 - MelodyMaster V1 (`melodymaster/v1/`)
   - Text-to-music generation model
   - Based on Facebook's MusicGen
   - Fine-tuned on MusicCaps dataset
 
 ## ⚙️ Prerequisites
-
 - Hugging Face account and API token
 - Access to:
   - Base models (e.g., facebook/musicgen-melody)
@@ -30,7 +27,6 @@ model-development/
   - Your model repository on HF (e.g., opentunes-ai/melodymaster-v1)
 
 ## 🚀 Setup
-
 1. Clone this repository:
 ```bash
 git clone https://github.com/opentunes-ai/model-development.git
@@ -49,7 +45,6 @@ pip install -r requirements.txt
 ```
 
 ## 🔄 Development Workflow
-
 1. **🏋️ Training Phase**
    - Configure training parameters
    - Run training notebooks/scripts
@@ -70,8 +65,11 @@ pip install -r requirements.txt
    - Update model cards
    - Version management
 
-## 🤝 Contributing
+## 🤝 Dataset Resources
+1. [Meta Sound ](https://www.facebook.com/sound)
+2. [Pond5 Music Collection ](https://www.pond5.com/)
 
+## 🤝 Contributing
 1. Fork the repository
 2. Create your feature branch
 3. Commit your changes
