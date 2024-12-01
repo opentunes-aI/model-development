@@ -68,7 +68,22 @@ pip install -r requirements.txt
 ## 🤝 Dataset Resources
 1. [Meta Sound ](https://www.facebook.com/sound)
 2. [Pond5 Music Collection ](https://www.pond5.com/)
-
+3. [MTG-Jamendo Dataset]( https://github.com/MTG/mtg-jamendo-dataset)
+   - Contains over 55,000 full audio tracks with 195 tags
+4. [ComMU Dataset](https://pozalabs.github.io/ComMU/)
+   - 11,144 MIDI samples with 12 metadata categories
+5. [MusicCaps](https://huggingface.co/datasets/google/MusicCaps)
+   - 5,521 music clips (10 seconds each) with text captions
+6. AudioSet:
+   - Over 2 million audio files, including music clips
+   - Available through Google's research resources
+7. The Bach Doodle Dataset:
+   - 21.6 million harmonizations with metadata
+   - Available through Google's research platforms
+8. MusicBench:
+   - 52,768 training and 400 test audio-text pair samples
+   - Available alongside the Mustango text-to-music model
+     
 ## 🤝 Contributing
 1. Fork the repository
 2. Create your feature branch
