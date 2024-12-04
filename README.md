@@ -74,7 +74,7 @@ pip install -r requirements.txt
    - 11,144 MIDI samples with 12 metadata categories
 5. [MusicCaps](https://huggingface.co/datasets/google/MusicCaps)
    - 5,521 music clips (10 seconds each) with text captions
-6. AudioSet:
+6. [AudioSet](https://research.google.com/audioset/)
    - Over 2 million audio files, including music clips
    - Available through Google's research resources
 7. The Bach Doodle Dataset:
